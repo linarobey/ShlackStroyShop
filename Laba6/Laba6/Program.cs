@@ -7,48 +7,24 @@ namespace Laba6
         static void Main(string[] args)
         {
             var resultArea = Data.Input();
-            var basket = new Basket();
+            //var basket = new Basket();
             var calculate = new Calculator();
 
             var countPackTile = calculate.NumberPacksTiles(resultArea);
             Console.WriteLine("\nКоличество покупаемых упаковок плитки: {0}", countPackTile);
 
-            var tileRed = new Tile("Red", 250);
-            Console.WriteLine(tileRed);
+            //var tileRed = new Tile("Red", 250);
+            //Console.WriteLine(tileRed);
 
-            basket.ChangePrice(countPackTile, tileRed.PriceOfOnePack);
-            Console.WriteLine("\nПокупки на сумму: {0}", basket.Price);
+            //basket.ChangePrice(countPackTile, tileRed.PriceOfOnePack);
+            //Console.WriteLine("\nПокупки на сумму: {0}", basket.Price);
 
-            basket.PrintCheck();
+            //basket.PrintCheck();
 
         }
     }
 
-    class Basket
-    {
-        public int Price { get; set; }
-
-        public Basket()
-        {
-            Price = 0;
-        }
-
-        public void ChangePrice(int count, int price)
-        {
-            Price += count * price;
-        }
-
-        public void PrintCheck()
-        {
-            if (Price < 1)
-                Console.WriteLine("\nЧек не может быть напечатан: корзина пуста.");
-            else
-            {
-                Console.WriteLine("\nЧек напечатан! Корзина очищена.");
-                Price = 0;
-            }
-        }
-    }
+  
 
     class Calculator
     {
@@ -68,24 +44,6 @@ namespace Laba6
                 return (int)(size / 10);
             else
                 return (int)(size / 10 + 1);
-        }
-    }
-
-    class Tile
-    {
-        public string Name { get; set; }
-        private readonly string description = null;
-        public int PriceOfOnePack { get; set; }
-
-        public Tile(string name, int price)
-        {
-            this.Name = name;
-            this.PriceOfOnePack = price;
-        }
-
-        public override string ToString()
-        {
-            return $"{Name}    {PriceOfOnePack}";
         }
     }
 

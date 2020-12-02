@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Laba6\\Laba6\\Laba6.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\git stroy\\ShlackStroyShop\\Laba6\\Laba6\\Laba6.csproj",
       "projectName": "Laba6",
-      "projectPath": "C:\\Users\\user\\Desktop\\Laba6\\Laba6\\Laba6.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\git stroy\\ShlackStroyShop\\Laba6\\Laba6\\Laba6.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Laba6\\Laba6\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\git stroy\\ShlackStroyShop\\Laba6\\Laba6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
