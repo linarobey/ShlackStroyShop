@@ -45,7 +45,7 @@ namespace Laba6
             Console.WriteLine("Введите размеры комнаты в формате: \nДлина \nШирина");
             var totalArea = calculate.TotalArea(Double.Parse(Console.ReadLine()), Double.Parse(Console.ReadLine()));
             Console.WriteLine("Полная площадь: {0}", totalArea);
-            Console.WriteLine("\nВведите размеры дополнительной прощади в формате: \nДлина \nШирина");
+            Console.WriteLine("\nВведите размеры дополнительной прощади: \nДлина \nШирина");
             var additionalArea = calculate.AdditionalArea(Double.Parse(Console.ReadLine()), Double.Parse(Console.ReadLine()));
             Console.WriteLine("Дополнительная площадь: {0}", additionalArea);
             var resultArea = totalArea - additionalArea;
