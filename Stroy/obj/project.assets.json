@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Person\\Desktop\\ggit\\ShlackStroyShop\\Stroy\\Stroy\\Stroy.csproj",
+      "projectUniqueName": "C:\\Users\\Person\\Desktop\\ggit\\ShlackStroyShop\\Stroy\\Stroy.csproj",
       "projectName": "Stroy",
-      "projectPath": "C:\\Users\\Person\\Desktop\\ggit\\ShlackStroyShop\\Stroy\\Stroy\\Stroy.csproj",
+      "projectPath": "C:\\Users\\Person\\Desktop\\ggit\\ShlackStroyShop\\Stroy\\Stroy.csproj",
       "packagesPath": "C:\\Users\\Person\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Person\\Desktop\\ggit\\ShlackStroyShop\\Stroy\\Stroy\\obj\\",
+      "outputPath": "C:\\Users\\Person\\Desktop\\ggit\\ShlackStroyShop\\Stroy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
