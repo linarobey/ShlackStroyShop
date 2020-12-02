@@ -7,20 +7,10 @@ namespace Laba6
         static void Main(string[] args)
         {
             var resultArea = Data.Input();
-            //var basket = new Basket();
             var calculate = new Calculator();
 
             var countPackTile = calculate.NumberPacksTiles(resultArea);
             Console.WriteLine("\nКоличество покупаемых упаковок плитки: {0}", countPackTile);
-
-            //var tileRed = new Tile("Red", 250);
-            //Console.WriteLine(tileRed);
-
-            //basket.ChangePrice(countPackTile, tileRed.PriceOfOnePack);
-            //Console.WriteLine("\nПокупки на сумму: {0}", basket.Price);
-
-            //basket.PrintCheck();
-
         }
     }
 
